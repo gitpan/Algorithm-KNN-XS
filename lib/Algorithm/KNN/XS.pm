@@ -3,7 +3,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '0.01000';
+our $VERSION = '0.01001';
 
 require XSLoader;
 XSLoader::load('Algorithm::KNN::XS', $VERSION);

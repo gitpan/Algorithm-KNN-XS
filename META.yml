@@ -1,17 +1,18 @@
 --- #YAML:1.0
 name:               Algorithm-KNN-XS
-version:            0.01000
+version:            0.01001
 abstract:           A class that performs a fast KNN search
 author:
     - Stephan Conrad <conrad@stephanconrad.de>
 license:            lgpl
 distribution_type:  module
 configure_requires:
+    Alien::LibANN:        0.01000
     ExtUtils::MakeMaker:  0
 build_requires:
+    Alien::LibANN:        0.01000
     ExtUtils::MakeMaker:  0
 requires:
-    Alien::LibANN:   0.01000
     ExtUtils::XSpp:  0.01000
 no_index:
     directory:
